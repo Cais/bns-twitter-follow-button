@@ -92,7 +92,7 @@ Please stay current with your WordPress installation, your active theme, and you
 
 == Changelog ==
 = 0.3 =
-* released ...
+* released November 2011
 * confirmed compatible with WordPress 3.3
 * added PHPDoc style documentation
 * added i18n support using `bns-tfb` text domain
