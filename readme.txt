@@ -97,6 +97,7 @@ Please stay current with your WordPress installation, your active theme, and you
 * added PHPDoc style documentation
 * added i18n support using `bns-tfb` text domain
 * added WordPress version check for compatibility
+* general code clean-up
 
 = 0.2 =
 * added support of languages for the Follow Button using the two letter ISO-639-1 language code
