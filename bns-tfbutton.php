@@ -62,7 +62,20 @@ License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 load_plugin_textdomain( 'bns-tfb' );
 // End: BNS Twitter Follow Button TextDomain
 
-/* Function that registers our widget. */
+/**
+ * Check installed WordPress version for compatibility
+ *
+ * @package     BNS_Twitter_Follow_Button
+ * @since       0.3
+ * @internal    Version 3.0 being used ...
+ */
+global $wp_version;
+$exit_message = __( 'BNS Twitter Follow Button requires WordPress version 3.0 or newer. <a href="http://codex.wordpress.org/Upgrading_WordPress">Please Update!</a>', 'bns-support' );
+if ( version_compare( $wp_version, "3.0", "<" ) ) {
+    exit ( $exit_message );
+}
+
+/** Register widget */
 function load_bns_tfbutton_widget() {
         register_widget( 'BNS_TFButton_Widget' );
 }

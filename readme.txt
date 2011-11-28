@@ -96,11 +96,12 @@ Please stay current with your WordPress installation, your active theme, and you
 * confirmed compatible with WordPress 3.3
 * added PHPDoc style documentation
 * added i18n support using `bns-tfb` text domain
+* added WordPress version check for compatibility
 
 = 0.2 =
 * added support of languages for the Follow Button using the two letter ISO-639-1 language code
 * languages supported: English (en); French (fr); German (de); Italian (it); Spanish (es); Korean (ko); and, Japanese (ja).
-* updated readme (this file) with corections to shortcode usage / parameters
+* updated readme (this file) with corrections to shortcode usage / parameters
 
 = 0.1.1 =
 * update to readme.txt file (typos and corrections)
