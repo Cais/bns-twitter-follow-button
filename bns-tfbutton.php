@@ -3,10 +3,50 @@
 Plugin Name: BNS Twitter Follow Button
 Plugin URI: http://buynowshop.com/plugins/bns-tfbutton
 Description: Based on the (JavaScript) Twitter Follow Button (https://twitter.com/about/resources/followbutton) featuring all of the functionality offered including language support.
-Version: 0.2
+Version: 0.3
 Author: Edward Caissie
 Author URI: http://edwardcaissie.com/
 */
+
+/**
+ * BNS Featured Category WordPress plugin
+ *
+ * Based on the (JavaScript) Twitter Follow Button
+ * (https://twitter.com/about/resources/followbutton) featuring all of the
+ * functionality offered including language support.
+ *
+ * @package     BNS_Twitter_Follow_Button
+ * @link        http://buynowshop.com/plugins/bns-twitter-follow-button/
+ * @link        https://github.com/Cais/bns-twitter-follow-button/
+ * @link        http://wordpress.org/extend/plugins/bns-twitter-follow-button/
+ * @version     0.3
+ * @author      Edward Caissie <edward.caissie@gmail.com>
+ * @copyright   Copyright (c) 2011-2012, Edward Caissie
+ *
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2, as published by the
+ * Free Software Foundation.
+ *
+ * You may NOT assume that you can use any other version of the GPL.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program; if not, write to:
+ *
+ *      Free Software Foundation, Inc.
+ *      51 Franklin St, Fifth Floor
+ *      Boston, MA  02110-1301  USA
+ *
+ * The license for this software can also likely be found here:
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Last revised April 6, 2012
+ * @version 0.3
+ * @todo update for internationalization
+ */
 
 /* Add function to the widgets_init hook. */
 add_action( 'widgets_init', 'load_bns_tfbutton_widget' );
@@ -42,11 +82,15 @@ class BNS_TFButton_Widget extends WP_Widget {
       $align        = $instance['align']; // Alignment
       
       /* Before widget (defined by themes). */
-      echo $before_widget;
+        /** @var $before_widget string */
+        echo $before_widget;
 
       /* Title of widget (before and after defined by themes). */
       if ( $title )
-        echo $before_title . $title . $after_title;
+          /** @var  $before_title   string */
+          /** @var  $after_title    string */
+          /** @noinspection PhpUndefinedVariableInspection - disregard as IDE commentary */
+          echo $before_title . $title . $after_title;
 
       /* Display stuff based on widget settings. */
       ?>
@@ -55,7 +99,8 @@ class BNS_TFButton_Widget extends WP_Widget {
       <?php
             
       /* After widget (defined by themes). */
-      echo $after_widget;
+        /** @var $after_widget string */
+        echo $after_widget;
   }
   
 	function update( $new_instance, $old_instance ) {
@@ -186,4 +231,3 @@ function bns_tfbutton_shortcode ($atts) {
 add_shortcode( 'bns_tfbutton', 'bns_tfbutton_shortcode' );
 /* Shortcode end */
 ?>
-<?php /* Last revised June 2, 2011 version 0.2 */ ?>

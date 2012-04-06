@@ -3,8 +3,8 @@ Contributors: cais
 Donate link: http://buynowshop.com
 Tags: multi-widget, user-options, twitter, multiple-accounts, language-support
 Requires at least: 2.8
-Tested up to: 3.2
-Stable tag: 0.2
+Tested up to: 3.4
+Stable tag: 0.3
 
 Displays a Twitter Follow Button; and, includes shortcode functionality.
 
@@ -91,6 +91,9 @@ Yes, more to follow ... or read this page: http://dev.twitter.com/pages/follow_b
 Please stay current with your WordPress installation, your active theme, and your plugins.
 
 == Changelog ==
+= 0.3 =
+* confirmed compatible with WordPress 3.4
+
 = 0.2 =
 * added support of languages for the Follow Button using the two letter ISO-639-1 language code
 * languages supported: English (en); French (fr); German (de); Italian (it); Spanish (es); Korean (ko); and, Japanese (ja).
