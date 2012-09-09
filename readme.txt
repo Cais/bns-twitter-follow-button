@@ -1,9 +1,9 @@
 === BNS Twitter Follow Button ===
 Contributors: cais
 Donate link: http://buynowshop.com
-Tags: multi-widget, user-options, twitter, multiple-accounts, language-support
+Tags: multi-widget, user-options, twitter, multiple-accounts, language-support, widget-only
 Requires at least: 2.8
-Tested up to: 3.4
+Tested up to: 3.4.2
 Stable tag: 0.3
 
 Displays a Twitter Follow Button; and, includes shortcode functionality.
