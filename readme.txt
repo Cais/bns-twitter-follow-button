@@ -3,8 +3,8 @@ Contributors: cais
 Donate link: http://buynowshop.com
 Tags: multi-widget, user-options, twitter, multiple-accounts, language-support, widget-only
 Requires at least: 2.8
-Tested up to: 3.4.2
-Stable tag: 0.3.1
+Tested up to: 3.5
+Stable tag: 0.3.2
 License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -93,6 +93,10 @@ Yes, more to follow ... or read this page: http://dev.twitter.com/pages/follow_b
 Please stay current with your WordPress installation, your active theme, and your plugins.
 
 == Changelog ==
+= 0.3.2 =
+* Documentation updates
+* Remove load_plugin_textdomain as redundant
+
 = 0.3.1 =
 * Documentation updates
 * Code format updates and clean-up
