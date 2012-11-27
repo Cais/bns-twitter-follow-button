@@ -3,7 +3,7 @@
 Plugin Name: BNS Twitter Follow Button
 Plugin URI: http://buynowshop.com/plugins/bns-tfbutton
 Description: Based on the (JavaScript) Twitter Follow Button (https://twitter.com/about/resources/followbutton) featuring all of the functionality offered including language support.
-Version: 0.3.1
+Version: 0.3.2
 Text Domain: bns-tfb
 Author: Edward Caissie
 Author URI: http://edwardcaissie.com/
@@ -22,7 +22,7 @@ License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * @link        http://buynowshop.com/plugins/bns-twitter-follow-button/
  * @link        https://github.com/Cais/bns-twitter-follow-button/
  * @link        http://wordpress.org/extend/plugins/bns-twitter-follow-button/
- * @version     0.3.1
+ * @version     0.3.2
  * @author      Edward Caissie <edward.caissie@gmail.com>
  * @copyright   Copyright (c) 2011, Edward Caissie
  *
