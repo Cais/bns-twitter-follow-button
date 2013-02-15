@@ -3,8 +3,8 @@ Contributors: cais
 Donate link: http://buynowshop.com
 Tags: multi-widget, user-options, twitter, multiple-accounts, language-support, widget-only
 Requires at least: 2.8
-Tested up to: 3.5
-Stable tag: 0.3.2
+Tested up to: 3.5.1
+Stable tag: 0.3.3
 License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -69,7 +69,7 @@ Yes, more to follow ... or read this page: http://dev.twitter.com/pages/follow_b
 1. The options panel.
 
 == Other Notes ==
-* Copyright 2011-2012  Edward Caissie  (email : edward.caissie@gmail.com)
+* Copyright 2011-2013, Edward Caissie (email : edward.caissie@gmail.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License version 2,
@@ -93,6 +93,11 @@ Yes, more to follow ... or read this page: http://dev.twitter.com/pages/follow_b
 Please stay current with your WordPress installation, your active theme, and your plugins.
 
 == Changelog ==
+= 0.3.3 =
+* Released February 2013
+* Added code block termination comments
+* Moved all code into class structure
+
 = 0.3.2 =
 * Documentation updates
 * Remove load_plugin_textdomain as redundant
