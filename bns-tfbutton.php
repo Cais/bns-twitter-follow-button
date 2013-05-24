@@ -3,7 +3,7 @@
 Plugin Name: BNS Twitter Follow Button
 Plugin URI: http://buynowshop.com/plugins/bns-tfbutton
 Description: Based on the (JavaScript) Twitter Follow Button (https://twitter.com/about/resources/followbutton) featuring all of the functionality offered including language support.
-Version: 0.3.3
+Version: 0.3.4
 Text Domain: bns-tfb
 Author: Edward Caissie
 Author URI: http://edwardcaissie.com/
@@ -54,6 +54,10 @@ License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * @date    February 15, 2013
  * Added code block termination comments
  * Moved all code into class structure
+ *
+ * @version 0.3.4
+ * @date    May 24, 2013
+ * Version number compatibility update
  */
 class BNS_TFButton_Widget extends WP_Widget {
 
@@ -217,7 +221,7 @@ class BNS_TFButton_Widget extends WP_Widget {
         </p>
 
         <p>
-            <label for="<?php echo $this->get_field_id( 'width' ); ?>"><?php _e( 'Width (in pixels of percentage):', 'bns-tfb' ); ?></label>
+            <label for="<?php echo $this->get_field_id( 'width' ); ?>"><?php _e( 'Width (in pixels or percentage):', 'bns-tfb' ); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id( 'width' ); ?>" name="<?php echo $this->get_field_name( 'width' ); ?>" value="<?php echo $instance['width']; ?>" />
             <label><?php _e( 'NB: Must be set in pixels to right align.', 'bns-tfb' ); ?></label>
         </p>
