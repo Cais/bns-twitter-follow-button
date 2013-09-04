@@ -4,7 +4,7 @@ Donate link: http://buynowshop.com
 Tags: multi-widget, user-options, twitter, multiple-accounts, language-support, widget-only
 Requires at least: 2.8
 Tested up to: 3.6
-Stable tag: 0.3.5
+Stable tag: 0.3.6
 License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -94,7 +94,7 @@ Please stay current with your WordPress installation, your active theme, and you
 Please also note this plugin may not be further supported or development continued in the future.
 
 == Changelog ==
-= 0.3.5 =
+= 0.3.6 =
 * Released September 2013
 * Corrected "undefined index" issue for the `lang` parameter
 

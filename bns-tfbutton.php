@@ -3,7 +3,7 @@
 Plugin Name: BNS Twitter Follow Button
 Plugin URI: http://buynowshop.com/plugins/bns-tfbutton
 Description: Based on the (JavaScript) Twitter Follow Button (https://twitter.com/about/resources/followbutton) featuring all of the functionality offered including language support.
-Version: 0.3.5
+Version: 0.3.6
 Text Domain: bns-tfb
 Author: Edward Caissie
 Author URI: http://edwardcaissie.com/
@@ -21,7 +21,7 @@ License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * @link        http://buynowshop.com/plugins/bns-twitter-follow-button/
  * @link        https://github.com/Cais/bns-twitter-follow-button/
  * @link        http://wordpress.org/extend/plugins/bns-twitter-follow-button/
- * @version     0.3.5
+ * @version     0.3.6
  * @author      Edward Caissie <edward.caissie@gmail.com>
  * @copyright   Copyright (c) 2011-2013, Edward Caissie
  *
@@ -54,7 +54,7 @@ License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * @date    May 24, 2013
  * Version number compatibility update
  *
- * @version 0.3.5
+ * @version 0.3.6
  * @date    September 3, 2013
  * Corrected "undefined index" issue for the `lang` parameter
  */
@@ -98,6 +98,9 @@ class BNS_TFButton_Widget extends WP_Widget {
      *
      * @param   array $args
      * @param   array $instance
+     *
+     * @version 0.3.6
+     * Corrected "undefined index" issue for the `lang` parameter
      */
     function widget( $args, $instance ) {
         extract( $args );
@@ -111,7 +114,9 @@ class BNS_TFButton_Widget extends WP_Widget {
         $button       = $instance['button'];        /** Button color */
         $text_color   = $instance['text_color'];    /** Text color */
         $link_color   = $instance['link_color'];    /** Link color */
-        $lang         = $instance['lang'];          /** Language - default: English */
+        $lang         = isset( $instance['lang'] )
+            ? $instance['lang']
+            : 'en';                                 /** Language - default: English */
         $width        = $instance['width'];         /** Width */
         $align        = $instance['align'];         /** Alignment */
 
@@ -168,9 +173,6 @@ class BNS_TFButton_Widget extends WP_Widget {
      * @param   array $instance
      *
      * @return  string|void
-     *
-     * @version 0.3.5
-     * Corrected "undefined index" issue for the `lang` parameter
      */
     function form( $instance ) {
         /** Set default widget settings */
@@ -181,7 +183,7 @@ class BNS_TFButton_Widget extends WP_Widget {
             'button'        => false,       /** Blue */
             'text_color'    => '186487',    /** Default blue palette. The default Grey color would be white (#ffffff); leave empty. */
             'link_color'    => '',
-            'lang'          => 'en',          /** Default - English */
+            'lang'          => '',          /** Default - English */
             'width'         => '300px',
             'align'         => ''
         );
