@@ -1,10 +1,10 @@
 === BNS Twitter Follow Button ===
 Contributors: cais
 Donate link: http://buynowshop.com
-Tags: multi-widget, user-options, twitter, multiple-accounts, language-support, widget-only
-Requires at least: 2.8
-Tested up to: 3.8.1
-Stable tag: 0.3.6
+Tags: twitter, widget, shortcode, social
+Requires at least: 3.6
+Tested up to: 4.1
+Stable tag: 0.3.7
 License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -69,7 +69,7 @@ Yes, more to follow ... or read this page: http://dev.twitter.com/pages/follow_b
 1. The options panel.
 
 == Other Notes ==
-* Copyright 2011-2013, Edward Caissie (email : edward.caissie@gmail.com)
+* Copyright 2011-2014, Edward Caissie (email : edward.caissie@gmail.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License version 2,
@@ -94,6 +94,13 @@ Please stay current with your WordPress installation, your active theme, and you
 Please also note this plugin may not be further supported or development continued in the future.
 
 == Changelog ==
+= 0.3.7 =
+* Released November 2014
+* Set `widget.js` location to protocol agnostic
+* Cleaned up code
+* Improved i18n textdomain references
+* Changed tags to more simple references to plugin functionality
+
 = 0.3.6 =
 * Released September 2013
 * Corrected "undefined index" issue for the `lang` parameter
