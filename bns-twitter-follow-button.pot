@@ -1,0 +1,87 @@
+# Copyright (C) 2015 BNS Twitter Follow Button
+# This file is distributed under the same license as the BNS Twitter Follow Button package.
+msgid ""
+msgstr ""
+"Project-Id-Version: BNS Twitter Follow Button 0.3.7\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/bns-twitter-follow-"
+"button\n"
+"POT-Creation-Date: 2015-02-06 14:30:05+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: bns-tfbutton.php:60 bns-tfbutton.php:209
+msgid "Twitter Follow Button"
+msgstr ""
+
+#: bns-tfbutton.php:75
+msgid ""
+"BNS Twitter Follow Button requires WordPress version 3.6 or newer. <a href="
+"\"http://codex.wordpress.org/Upgrading_WordPress\">Please Update!</a>"
+msgstr ""
+
+#: bns-tfbutton.php:226
+msgid "Title:"
+msgstr ""
+
+#: bns-tfbutton.php:235
+msgid "Twitter Name:"
+msgstr ""
+
+#: bns-tfbutton.php:248
+msgid "Grey button? (default: Blue)"
+msgstr ""
+
+#: bns-tfbutton.php:253
+msgid "Link Color: #"
+msgstr ""
+
+#: bns-tfbutton.php:266
+msgid "Show Follower Count?"
+msgstr ""
+
+#: bns-tfbutton.php:271
+msgid "Text Color: #"
+msgstr ""
+
+#: bns-tfbutton.php:284
+msgid "Align right? (default: left)"
+msgstr ""
+
+#: bns-tfbutton.php:289
+msgid "Width (in pixels or percentage):"
+msgstr ""
+
+#: bns-tfbutton.php:294
+msgid "NB: Must be set in pixels to right align."
+msgstr ""
+
+#: bns-tfbutton.php:299
+msgid "Language (as the two letter ISO-639-1 language code.):"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "BNS Twitter Follow Button"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://buynowshop.com/plugins/bns-tfbutton"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Based on the (JavaScript) Twitter Follow Button (https://twitter.com/about/"
+"resources/followbutton) featuring all of the functionality offered including "
+"language support."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Edward Caissie"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://edwardcaissie.com/"
+msgstr ""
