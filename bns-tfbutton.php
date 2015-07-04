@@ -3,7 +3,7 @@
 Plugin Name: BNS Twitter Follow Button
 Plugin URI: http://buynowshop.com/plugins/bns-tfbutton
 Description: Based on the (JavaScript) Twitter Follow Button (https://twitter.com/about/resources/followbutton) featuring all of the functionality offered including language support.
-Version: 0.3.7
+Version: 0.3.8
 Text Domain: bns-twitter-follow-button
 Author: Edward Caissie
 Author URI: http://edwardcaissie.com/
@@ -20,10 +20,10 @@ License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * @package     BNS_Twitter_Follow_Button
  * @link        http://buynowshop.com/plugins/bns-twitter-follow-button/
  * @link        https://github.com/Cais/bns-twitter-follow-button/
- * @link        http://wordpress.org/extend/plugins/bns-twitter-follow-button/
- * @version     0.3.7
+ * @link        https://wordpress.org/plugins/bns-twitter-follow-button/
+ * @version     0.3.8
  * @author      Edward Caissie <edward.caissie@gmail.com>
- * @copyright   Copyright (c) 2011-2014, Edward Caissie
+ * @copyright   Copyright (c) 2011-2015, Edward Caissie
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License version 2, as published by the
@@ -53,7 +53,7 @@ class BNS_TFButton_Widget extends WP_Widget {
 	 * @uses    add_action
 	 * @uses    add_shortcode
 	 */
-	function BNS_TFButton_Widget() {
+	function __construct() {
 		/** Widget settings. */
 		$widget_ops = array(
 			'classname'   => 'bns-tfbutton',
@@ -62,7 +62,7 @@ class BNS_TFButton_Widget extends WP_Widget {
 		/** Widget control settings. */
 		$control_ops = array( 'width' => 200, 'id_base' => 'bns-tfbutton' );
 		/** Create the widget. */
-		$this->WP_Widget( 'bns-tfbutton', 'BNS Twitter Follow Button', $widget_ops, $control_ops );
+		parent::__construct( 'bns-tfbutton', 'BNS Twitter Follow Button', $widget_ops, $control_ops );
 
 		/**
 		 * Check installed WordPress version for compatibility

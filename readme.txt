@@ -3,8 +3,8 @@ Contributors: cais
 Donate link: http://buynowshop.com
 Tags: twitter, widget, shortcode, social
 Requires at least: 3.6
-Tested up to: 4.1
-Stable tag: 0.3.7
+Tested up to: 4.2.2
+Stable tag: 0.3.8
 License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -69,7 +69,7 @@ Yes, more to follow ... or read this page: http://dev.twitter.com/pages/follow_b
 1. The options panel.
 
 == Other Notes ==
-* Copyright 2011-2014, Edward Caissie (email : edward.caissie@gmail.com)
+* Copyright 2011-2015, Edward Caissie (email : edward.caissie@gmail.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License version 2,
@@ -94,6 +94,10 @@ Please stay current with your WordPress installation, your active theme, and you
 Please also note this plugin may not be further supported or development continued in the future.
 
 == Changelog ==
+= 0.3.8 =
+* Released ...
+* Updated to use PHP5 constructor objects
+
 = 0.3.7 =
 * Released November 2014
 * Set `widget.js` location to protocol agnostic
