@@ -3,7 +3,7 @@ Contributors: cais
 Donate link: http://buynowshop.com
 Tags: twitter, widget, shortcode, social
 Requires at least: 3.6
-Tested up to: 4.2.2
+Tested up to: 4.3
 Stable tag: 0.3.8
 License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -95,7 +95,7 @@ Please also note this plugin may not be further supported or development continu
 
 == Changelog ==
 = 0.3.8 =
-* Released ...
+* Released August 2015
 * Updated to use PHP5 constructor objects
 
 = 0.3.7 =
